@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.title{
+    padding: 35px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnClean{
+    background-color: blue;
+    border-radius: 8px;
+    height: 45px;
+    width: 75px;
+    font-size: 22px;
+    transition: all .5s ease-in-out;
+    cursor: pointer ;
+}
+
+.diviArea{
+    display: flex;
+}
+
+.secRegis{
+    height: 350px;
+    width: 18.76rem;
+    background-color: cadetblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infUsu{
+    height: 1.8rem;
+    width: 285px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+}
+ .send{
+    height: 35px;
+    width: 75px;
+    border-radius: 8px;
+    font-size: 25px;
+ }
+.regist{
+    text-align: center;
+}
+
+.img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+.diviSection{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.section1, .section2, .section3{
+    background-color: rgb(174, 238, 238);
+    border-radius: 8px;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameAthlete,.nameSport,.age,.nameMoto,.Cylinder,.weigth,.NameBand,.NameBand,.epoch,.type{
+    font-size: 25px;
+    background-color: lavender;
+    height: 32px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.nameAthlete:hover,.nameSport:hover,.age:hover,.nameMoto:hover,.Cylinder:hover,.weigth:hover,.NameBand:hover,.NameBand:hover,.epoch:hover,.type:hover{
+    background-color: chartreuse;
+}
+
+.container{
+    display: block;
+    color: blueviolet;
+    font-size: 20px;
+    min-height: 20px;
+}
+ .pie{
+    height: 5.33rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.footContact{
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:810px){
+    .container{
+    color: brown;
+}
+    .section1{
+        background-color: coral;
+    }
+    .diviSection{
+        display: block;
+    }
+}
